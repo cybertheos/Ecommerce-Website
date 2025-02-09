@@ -113,12 +113,17 @@ body {
     color: #fff;
     margin-top: 12px;
     font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+.left-hero button:hover {
+    background-color: #00800096;
+    color: #fff;
 }
 .right-hero {
     display: block;
 }
 .right-hero img {
-    width: 350px;
+    width: 550px;
 }
 
 /* Services */
