@@ -82,3 +82,13 @@ a {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
+
+/* About Page */
+#about-container {
+  margin: 5em 130px;
+}
+#about-container h1 {
+  text-align: center;
+  font-size: 45px;
+}
+/* About Page */
