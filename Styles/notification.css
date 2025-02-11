@@ -84,3 +84,35 @@ a {
   background-color: #008000cb;
   color: #fff;
 }
+
+/* Notifications */
+#notification-container {
+  margin: 5em 150px;
+}
+.notification-title h1 {
+  font-size: 40px;
+  border-bottom: 1px solid #d6d4d4;
+}
+.notification-block {
+  border-bottom: 1px solid #d6d4d4;
+}
+.notification-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.content-left .notification-type {
+  background-color: #00800096;
+  border-radius: 15px;
+  max-width: 150px;
+  text-align: center;
+}
+.content-right a {
+  background-color: goldenrod;
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+/* Notificiation */
