@@ -90,13 +90,17 @@ a {
 .container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   gap: 23px;
 }
+.name-box span {
+  font-size: 22px;
+}
 .amount-box span {
-  font-size: 30px;
+  font-size: 22px;
 }
 .address-section span {
-  font-size: 30px;
+  font-size: 22px;
 }
 .address-section a {
   color: goldenrod;
@@ -111,7 +115,7 @@ a {
   gap: 12px;
 }
 table.table-items {
-  width: 70%;
+  width: 80%;
   text-align: center;
   border-collapse: collapse;
 }
@@ -126,7 +130,18 @@ table.table-items td {
 .cart-table tbody td img {
   width: 100px;
 }
+.item-payment {
+  width: 20%;
+}
+.item-payment button:nth-child(1) {
+  margin-bottom: 12px;
+  background-color: goldenrod;
+}
+.item-payment button:nth-child(1):hover {
+  background-color: gold;
+}
 .item-payment button {
+  width: 100%;
   padding: 15px;
   background-color: rgba(194, 58, 58, 0.849);
   color: #ffff;
