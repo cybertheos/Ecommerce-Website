@@ -115,4 +115,7 @@ a {
   justify-content: center;
   margin-top: 12px;
 }
+.content-right a:hover {
+  background-color: rgb(248, 178, 2);
+}
 /* Notificiation */
