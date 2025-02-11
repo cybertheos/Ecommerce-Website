@@ -29,6 +29,7 @@ body {
 .navbar001 .left-container {
     display: flex;
     gap: 12px;
+    width: 100%;
 }
 .navbar001 .left-container input {
     border: none;
