@@ -31,12 +31,6 @@ body {
     gap: 12px;
     /* width: 100%; */
 }
-.navbar001 .left-container input {
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    padding: 12px;
-}
 .navbar001 .left-container .logo {
     color: #fff;
 }
@@ -44,7 +38,14 @@ body {
     display: flex;
     gap: 30px;
     text-align: center;
+    align-items: center;
     
+}
+.navbar001 .right-container button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 .navbar002 {
     display: flex;
