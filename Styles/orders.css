@@ -194,6 +194,23 @@ a {
     gap: 12px;
     /* margin: 0 130px; */
 }
+.content {
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+  overflow: hidden;
+}
+.content.active {
+  opacity: 1;
+  pointer-events: auto;
+  height: auto;
+  overflow: visible;
+}
+.tabs.active {
+  background-color: #00800096;
+  color: #fff;
+  font-weight: 600;
+}
 .box003 {
     display: flex;
     justify-content: center;

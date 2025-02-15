@@ -76,13 +76,114 @@
     <section id="orders-container">
         <div class="order-tabs">
             <ul>
-                <li><a href="">Pending Orders</a></li>
-                <li><a href="">Delivered Orders</a></li>
-                <li><a href="">Cancelled Orders</a></li>
+                <li class="tabs" data-tab="pending-orders"><a href="">Pending Orders</a></li>
+                <li class="tabs" data-tab="delivered-orders"><a href="">Delivered Orders</a></li>
+                <li class="tabs" data-tab="cancelled-orders"><a href="">Cancelled Orders</a></li>
             </ul>
         </div>
+        
 
-        <div class="order-items">
+        <div class="order-items content" id="pending-orders">
+            <div class="box003">
+                <div class="box003-left">
+                    <img src="/Ecommerce/src/Flour 101_ Different Types of Flour and When to Use Them (1).jpeg" alt="">
+                </div>
+                <div class="box003-right">
+                    <h1>Pastery Flour</h1>
+                    <span>Madhav Foods</span>
+                    <p>200$</p>
+                    <span>Status: <strong>Order Placed</strong></span>
+                    <button type="button">View <img src="/Ecommerce/src/icons8-up-right-100.png" width="16" height="16" alt=""></button>
+                </div>
+            </div>
+            <div class="box003">
+                <div class="box003-left">
+                    <img src="/Ecommerce/src/Flour 101_ Different Types of Flour and When to Use Them.jpeg" alt="">
+                </div>
+                <div class="box003-right">
+                    <h1>Bread Flour</h1>
+                    <span>Madhav Foods</span>
+                    <p>150$</p>
+                    <span>Status: <strong>Order Placed</strong></span>
+                    <button type="button">View <img src="/Ecommerce/src/icons8-up-right-100.png" width="16" height="16" alt=""></button>
+                </div>
+            </div>
+            <div class="box003">
+                <div class="box003-left">
+                    <img src="/Ecommerce/src/Glazed Chinese Five Spice Cookies — Eat Cho Food.jpeg" alt="">
+                </div>
+                <div class="box003-right">
+                    <h1>Pastery Flour</h1>
+                    <span>Madhav Foods</span>
+                    <p>130$</p>
+                    <span>Status: <strong>Order Placed</strong></span>
+                    <button type="button">View <img src="/Ecommerce/src/icons8-up-right-100.png" width="16" height="16" alt=""></button>
+                </div>
+            </div>
+            <div class="box003">
+                <div class="box003-left">
+                    <img src="/Ecommerce/src/Instant Mango Pickle & Instant Mix Vegetable Pickle _ Homemade Achar Recipe By SooperChef.jpeg" alt="">
+                </div>
+                <div class="box003-right">
+                    <h1>Mango Pickle</h1>
+                    <span>Madhav Foods</span>
+                    <p>250$</p>
+                    <span>Status: <strong>Order Placed</strong></span>
+                    <button type="button">View <img src="/Ecommerce/src/icons8-up-right-100.png" width="16" height="16" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="order-items content" id="delivered-orders">
+            <div class="box003">
+                <div class="box003-left">
+                    <img src="/Ecommerce/src/Flour 101_ Different Types of Flour and When to Use Them (1).jpeg" alt="">
+                </div>
+                <div class="box003-right">
+                    <h1>Fine Pastery Flour</h1>
+                    <span>Madhav Foods</span>
+                    <p>200$</p>
+                    <span>Status: <strong>Order Placed</strong></span>
+                    <button type="button">View <img src="/Ecommerce/src/icons8-up-right-100.png" width="16" height="16" alt=""></button>
+                </div>
+            </div>
+            <div class="box003">
+                <div class="box003-left">
+                    <img src="/Ecommerce/src/Flour 101_ Different Types of Flour and When to Use Them.jpeg" alt="">
+                </div>
+                <div class="box003-right">
+                    <h1>Bread Flour</h1>
+                    <span>Madhav Foods</span>
+                    <p>150$</p>
+                    <span>Status: <strong>Order Placed</strong></span>
+                    <button type="button">View <img src="/Ecommerce/src/icons8-up-right-100.png" width="16" height="16" alt=""></button>
+                </div>
+            </div>
+            <div class="box003">
+                <div class="box003-left">
+                    <img src="/Ecommerce/src/Glazed Chinese Five Spice Cookies — Eat Cho Food.jpeg" alt="">
+                </div>
+                <div class="box003-right">
+                    <h1>Pastery Flour</h1>
+                    <span>Madhav Foods</span>
+                    <p>130$</p>
+                    <span>Status: <strong>Order Placed</strong></span>
+                    <button type="button">View <img src="/Ecommerce/src/icons8-up-right-100.png" width="16" height="16" alt=""></button>
+                </div>
+            </div>
+            <div class="box003">
+                <div class="box003-left">
+                    <img src="/Ecommerce/src/Instant Mango Pickle & Instant Mix Vegetable Pickle _ Homemade Achar Recipe By SooperChef.jpeg" alt="">
+                </div>
+                <div class="box003-right">
+                    <h1>Mango Pickle</h1>
+                    <span>Madhav Foods</span>
+                    <p>250$</p>
+                    <span>Status: <strong>Order Placed</strong></span>
+                    <button type="button">View <img src="/Ecommerce/src/icons8-up-right-100.png" width="16" height="16" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="order-items content" id="cancelled-orders">
             <div class="box003">
                 <div class="box003-left">
                     <img src="/Ecommerce/src/Flour 101_ Different Types of Flour and When to Use Them (1).jpeg" alt="">
@@ -136,5 +237,6 @@
     <!-- Orders -->
 
     <script src="/Ecommerce/Scripts/navbar.js"></script>
+    <script src="/Ecommerce/Scripts/ordertabs.js"></script>
 </body>
 </html>
