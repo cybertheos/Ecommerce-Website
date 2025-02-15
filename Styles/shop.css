@@ -34,6 +34,13 @@ body {
 .navbar001 .left-container .logo {
     color: #fff;
 }
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
 .right-container .search-popup-box {
     position: absolute;
     width: 50%;
