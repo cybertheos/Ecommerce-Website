@@ -44,13 +44,13 @@ body {
 .right-container .search-popup-box {
     position: absolute;
     width: 50%;
-    height: 400px;
+    height: auto;
     background-color: #fff;
     padding: 15px;
     border-radius: 5px;
     margin-top: 20em;
     right: 20em;
-    box-shadow: 0 3px 13px #222127;
+    box-shadow: 0 3px 13px #99989b;
 }
 .search-area {
     display: flex;
@@ -75,6 +75,42 @@ body {
     background: #d1d1d1;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
+}
+.search-popup-box .search-categories ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px 20px;
+}
+.search-categories ul li {
+    border: 2px solid #008000cb;
+    padding: 12px;
+    border-radius: 15px;
+    color: #00800096;
+    font-size: 15px;
+}
+.search-categories ul li:hover {
+    background-color: #00800096;
+    color: #fff;
+    font-weight: 600;
+}
+.search-results {
+    padding: 12px;
+}
+.search-results h1 {
+    font-size: 25px;
+    text-align: left;
+}
+.search-results .results {
+    padding: 10px;
+}
+.search-popup-box button {
+    background-color: #00800096 !important;
+    display: flex;
+    align-items: end;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
 }
 .navbar001 .right-container button {
     background: transparent;
