@@ -25,6 +25,7 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    position: relative;
 }
 .navbar001 .left-container {
     display: flex;
@@ -39,6 +40,41 @@ body {
     text-align: center;
     align-items: center;
     
+}
+.right-container .search-popup-box {
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20em;
+    right: 20em;
+    box-shadow: 0 3px 13px #222127;
+}
+.search-area {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.search-area a {
+    background-color: #222127;
+    padding: 12px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+}
+.search-popup-box .search-area input {
+    width: 50%;
+    border-radius: 15px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background: #d1d1d1;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
 }
 .navbar001 .right-container button {
     background: transparent;
