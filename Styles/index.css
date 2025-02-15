@@ -66,6 +66,12 @@ body {
     align-items: center;
     text-align: center;
 }
+.search-popup-box {
+    display: none;
+}
+.search-popup-box.show {
+    display: block;
+}
 .search-popup-box .search-area input {
     width: 50%;
     border-radius: 15px;
