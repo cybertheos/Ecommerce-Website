@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// Replace the connection string with my own databse URL
+// Connecting databse URL
 mongoose.connect('mongodb://localhost:27017/ecommerce', { userNewUrlParser: true, useUnifiedTopology: true});
 
 // Connecting to DataBase
